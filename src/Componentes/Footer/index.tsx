@@ -1,9 +1,9 @@
 
-import { AppBar, Box, Button, Container, IconButton, Link, Toolbar, Typography } from "@mui/material"
+import { AppBar, Box, Button, Container, Link, Toolbar, Typography } from "@mui/material"
 
 function Copyright() {
   return (
-    <Container >
+    <Container sx={{ bottom: 0 }} >
       <Typography
         sx={{ color: "#E4FEFA" }}
         variant="body2"
